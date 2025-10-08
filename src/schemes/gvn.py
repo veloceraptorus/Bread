@@ -11,3 +11,12 @@ class MisieGovna(BaseModel):
     color: str
     vkusnost: int
     zvozd: int
+    
+class Car(BaseModel):
+    Марка: str 
+    Цвет: str
+    Пробег_км: int
+    Количество_колёс_шт: int
+    Вес_кг: int
+    Год_выпуска: str
+    Скорость_кмч: str
